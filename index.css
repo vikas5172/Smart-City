@@ -1,0 +1,288 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title {
+  position: relative;
+  line-height: 48px;
+  font-weight: 600;
+}
+.description {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 24px;
+  display: inline-block;
+  width: 520px;
+}
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  z-index: 0;
+}
+.section,
+.section-child {
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+.section-child {
+  margin: 0 !important;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  height: 0.5px;
+  z-index: 1;
+}
+.section {
+  top: 58px;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 1440px;
+  background-image: url(smartcity-tencent-china\ \(1\).jpg);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 170px;
+  box-sizing: border-box;
+  gap: 60px;
+  font-size: 64px;
+  color: var(--color-white);
+}
+.smart-city-technology {
+  font-size: var(--font-size-13xl);
+}
+.smart-city-technology-solution {
+  margin-block-start: 0;
+  margin-block-end: 1px;
+}
+.when-governments-embark {
+  font-size: var(--font-size-xl);
+}
+.cloud-computing {
+  margin-block-start: 0;
+  margin-block-end: 1px;
+  font-size: var(--font-size-5xl);
+  text-transform: capitalize;
+}
+.scale-as-they-grow-and-deliver {
+  margin-bottom: 0;
+}
+.reduce-costs-since-they-dont {
+  margin: 0;
+  padding-left: var(--padding-8xl);
+}
+.internet-of-things {
+  font-size: var(--font-size-5xl);
+}
+.smart-city-technology-container {
+  position: absolute;
+  top: calc(50% - 1666px);
+  left: calc(50% - 672px);
+  line-height: 20px;
+  font-family: var(--font-inherit);
+  text-align: left;
+  display: inline-block;
+  width: 1337px;
+  height: 2893px;
+}
+.smart-city-transforming {
+  position: absolute;
+  top: 17.5px;
+  left: 110px;
+  display: inline-block;
+  width: 631px;
+  height: 23px;
+}
+.logo-with-title-smart-city-mis-icon {
+  position: absolute;
+  top: 1px;
+  left: 20px;
+  border-radius: 90px;
+  width: 61.25px;
+  height: 56px;
+  object-fit: cover;
+}
+.e {
+  letter-spacing: 0.11em;
+}
+.home-txt {
+  line-break: anywhere;
+  width: 100%;
+}
+.home {
+  position: absolute;
+  top: 13px;
+  left: 1256px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 118px;
+  height: 35px;
+}
+.smart-city-transforming-urban-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 58px;
+  overflow: hidden;
+  text-align: left;
+}
+.subscribe-to-our {
+  position: absolute;
+  top: 0;
+  left: 290px;
+  font-size: 36px;
+  justify-content: center;
+  width: 562px;
+  height: 48px;
+}
+.email,
+.stay-updated-with,
+.subscribe-to-our {
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+.stay-updated-with {
+  position: absolute;
+  top: 72px;
+  left: 290px;
+  justify-content: center;
+  width: 520px;
+  height: 24px;
+}
+.email {
+  top: 0;
+}
+.email,
+.frame-child,
+.we-respect-your {
+  position: absolute;
+  left: 0;
+  width: 600px;
+}
+.frame-child {
+  top: 23px;
+  border-radius: 6px;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 38px;
+  overflow: hidden;
+}
+.we-respect-your {
+  top: 64px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.email-parent {
+  position: absolute;
+  top: 120px;
+  left: 250px;
+  width: 600px;
+  height: 80px;
+  overflow: hidden;
+  text-align: left;
+}
+.subscribe {
+  position: absolute;
+  top: 18px;
+  left: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 116px;
+  height: 10px;
+}
+.subscribe-wrapper {
+  position: absolute;
+  top: 224px;
+  left: 470px;
+  border-radius: 8px;
+  background-color: var(--color-black);
+  width: 160px;
+  height: 48px;
+  overflow: hidden;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.desktop-1-inner,
+.subscribe-to-our-newsletter-parent {
+  position: absolute;
+  top: 60px;
+  left: 170px;
+  width: 1100px;
+  height: 272px;
+  overflow: hidden;
+}
+.desktop-1-inner {
+  top: 3328px;
+  left: 0;
+  width: 1440px;
+  height: 392px;
+  font-size: var(--font-size-base);
+}
+.desktop-1-child {
+  position: absolute;
+  top: 3719.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1441px;
+  height: 1px;
+}
+.desktop-1-item {
+  position: absolute;
+  top: 3327px;
+  left: 0;
+  width: 1440px;
+  height: 4.72px;
+}
+.contact-us,
+.privacy-policy,
+.terms-of-use {
+  position: absolute;
+  top: 89px;
+  left: 273px;
+  line-height: 20px;
+  display: inline-block;
+  width: 138px;
+  height: 21px;
+}
+.privacy-policy,
+.terms-of-use {
+  left: 630px;
+  width: 180px;
+}
+.terms-of-use {
+  left: 1071px;
+  width: 146px;
+}
+.contact-us-parent {
+  position: absolute;
+  top: 3720px;
+  left: 2px;
+  width: 1440px;
+  height: 220px;
+  overflow: hidden;
+}
+.desktop-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 3940px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto-serif);
+}
